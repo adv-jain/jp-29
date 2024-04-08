@@ -29,6 +29,7 @@
   --grey: #949494;
   --black: #120304;
   --hightlight: #e7d9d5;
+  /* --hightlight: #cda193; */
   --hightlight-secondary: #f5efeb;
   --white: #fff;
   --bs-heading-color: var(--black);
@@ -425,7 +426,7 @@ blockquote {
 
 .to-blogs-links,
 .pg-blog-item {
-  color: var(--hightlight);
+  color: var(--other-hightlighter);
 }
 
 .readmore {
@@ -434,7 +435,7 @@ blockquote {
   /* text-transform: uppercase; */
   display: inline-block;
   letter-spacing: 2px;
-  color: var(--hightlight);
+  color: var(--other-hightlighter);
   transition: all 0.5s;
 }
 
